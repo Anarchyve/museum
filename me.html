@@ -3,8 +3,52 @@
   <head>
     <meta charset="utf-8">
     <title>me</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <meta name="viewport" content="width=device-width, initail-scale=1.0">
   </head>
   <body>
-    me
+    <div class="gallery-section">
+      <div class="inner-width">
+        <h1>Byeol</h1>
+        <div class="border"></div>
+        <div class="gallery">
+          <a href="img/1.jpeg" class="image">
+            <img src="img/1.jpeg" alt="">
+          </a>
+          <a href="img/1.jpeg" class="image">
+            <img src="img/1.jpeg" alt="">
+          </a>
+          <a href="img/1.jpeg" class="image">
+            <img src="img/1.jpeg" alt="">
+          </a>
+          <a href="img/1.jpeg" class="image">
+            <img src="img/1.jpeg" alt="">
+          </a>
+          <a href="img/1.jpeg" class="image">
+            <img src="img/1.jpeg" alt="">
+          </a>
+          <a href="img/1.jpeg" class="image">
+            <img src="img/1.jpeg" alt="">
+          </a>
+          <a href="img/1.jpeg" class="image">
+            <img src="img/1.jpeg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(".gallery").magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery:{
+          eanbled: true
+        }
+      });
+    </script>
+
   </body>
 </html>
