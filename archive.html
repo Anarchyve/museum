@@ -15,6 +15,23 @@
 
 <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
 
+<script>
+  (function(src, cb) {
+   var s = document.createElement('script'); s.setAttribute('src', src);
+   s.onload = cb; (document.head || document.body).appendChild(s);
+ })('https://ucarecdn.com/libs/blinkloader/3.x/blinkloader.min.js', function() {
+   window.Blinkloader.optimize({
+     pubkey:'41fbc4cde4bcffd5d16d',
+     fadeIn:true,
+     lazyload:true,
+     smartCompression:true,
+     responsive:true,
+     retina:true,
+     webp:true
+   });
+ })
+</script>
+
   </head>
   <body>
     <div class="gallery-section">
